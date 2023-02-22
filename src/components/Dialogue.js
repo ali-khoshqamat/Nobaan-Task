@@ -34,16 +34,22 @@ const Dialogue = () => {
   };
 
   return (
-    <div style={{ display: display ? "block" : "none" }}>
-      <h1>Dialogue</h1>
+    <section
+      className={`w-[450px] h-40 my-5 bg-white p-5 border border-solid border-gray-300 rounded-md ${
+        display ? "flex flex-col items-center justify-between" : "hidden"
+      } `}
+    >
+      <h1 className="font-bold text-lg">Dialogue</h1>
       <input
         type="text"
         id="text-input"
         value={inputValue}
         onChange={inputChangeHandler}
+        placeholder="Write something..."
+        className="outline-none py-1.5 px-2 border border-solid border-gray-300 rounded-md focus:border-sky-500"
       />
-      <p>{textFieldData}</p>
-    </div>
+      <p className="font-bold text-center text-sm">{textFieldData}</p>
+    </section>
   );
 };
 
