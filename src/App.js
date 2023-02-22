@@ -4,7 +4,7 @@ import Dialogue from "./components/Dialogue";
 import Layout from "./layout/Layout";
 import store from "./redux/store";
 import routes from "./routes";
-import { Button } from "button-component";
+// import { Button } from "button-component";
 
 function App() {
   const clickHandler = () => {
@@ -21,7 +21,7 @@ function App() {
               <Route {...route} key={route.path} />
             ))}
           </Routes>
-          <Button label="Click me!" onClick={clickHandler} />
+          {/* <Button label="Click me!" onClick={clickHandler} /> */}
         </Layout>
       </Provider>
     </div>
