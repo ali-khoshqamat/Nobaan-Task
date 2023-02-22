@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Nobaan-Task/static/css/main.127f6216.css",
+    "main.js": "/Nobaan-Task/static/js/main.5dfaf697.js",
+    "index.html": "/Nobaan-Task/index.html",
+    "main.127f6216.css.map": "/Nobaan-Task/static/css/main.127f6216.css.map",
+    "main.5dfaf697.js.map": "/Nobaan-Task/static/js/main.5dfaf697.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.127f6216.css",
+    "static/js/main.5dfaf697.js"
+  ]
+}
